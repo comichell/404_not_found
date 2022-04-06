@@ -237,3 +237,10 @@
     });
 })(jQuery);
 
+/*header */
+$(function() {
+        $.get("header.html", function(data) {
+            document.getElementById("header").outerHTML = data;
+        });
+    });
+
