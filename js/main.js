@@ -244,3 +244,11 @@ $(function() {
         });
     });
 
+/*footer */
+$(function() {
+    $.get("footer.html", function(data) {
+        document.getElementById("footer").outerHTML = data;
+    });
+});
+
+
