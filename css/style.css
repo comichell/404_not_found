@@ -315,7 +315,8 @@ h2 {
 }
 
 .bottom-bar .logo {
-    text-align: left;
+    text-align: center;
+
     overflow: hidden;
 }
 /*logo*/
@@ -324,6 +325,7 @@ h2 {
 }
 
 .bottom-bar .search {
+    left:10px;
     width: 100%;
 }
 
@@ -461,7 +463,7 @@ h2 {
 }
 
 .header-slider .header-slider-item {
-    padding-left: 200px;
+    padding-left: 280px;
     position: relative;
 }
 
