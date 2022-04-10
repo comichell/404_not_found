@@ -2,7 +2,7 @@ GRUPO 21 - 404 NOT FOUND
 
 Integrantes:
 Constanza Michell
-Sebasti�n Pfeifer
+Sebastian Pfeifer
 Carlos Samaniego
 
 Repositorio GitHub --> https://github.com/comichell/404_not_found.git
