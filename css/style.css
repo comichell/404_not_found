@@ -69,12 +69,13 @@ h2 {
 /**********************************/
 .form-control,
 .custom-select {
+
     width: 100%;
     height: 35px;
     padding: 0 15px;
     color: #999999;
     border: 1px solid #dddddd;
-    margin-bottom: 15px
+    margin-bottom: 125px
 }
 
 .form-control:focus,
@@ -293,7 +294,7 @@ h2 {
     
     .nav,
     .nav .navbar {
-        background: #000000 !important;
+        background: #8e22bb !important;
     }
     
     .nav a.nav-link {
@@ -415,13 +416,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-.header .navbar {
-    padding: 0;
-    height: 100%;
-    max-height: 400px;
-    overflow: hidden;
-    background: #ebacf8 !important; /*barra superior izquierda donde*/
-}
 
 .header .navbar-nav {
     width: 100%;
@@ -462,25 +456,11 @@ h2 {
 }
 
 .header-slider .header-slider-item {
-    padding-left: 150px;
     position: relative;
 }
 
-.header-slider .header-slider-caption {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    width: 60%;
-    height: 60%;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(206, 157, 255, 0.7);
-    transition: all 0.3s;
-    z-index: 1;
-}
+
+
 
 .header-slider .header-slider-caption p {
     text-align: center;
@@ -517,6 +497,7 @@ h2 {
 }
 
 .header .img-item img {
+
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
@@ -851,7 +832,7 @@ h2 {
 
 .recent-product {
     position: relative;
-    padding: 30px 0;
+    padding: 3px 0;
 }
 
 .product .section-header {
@@ -863,7 +844,7 @@ h2 {
 
 .product .slick-prev,
 .product .slick-next {
-    top: -75px;
+    top: -40px;
     width: 30px;
     height: 30px;
     z-index: 1;
