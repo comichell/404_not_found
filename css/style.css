@@ -106,8 +106,10 @@ h2 {
 .btn {
     color: #8e22bb;
     background: #ffffff;
-    border: 1px solid #8e22bb;
+    border: 2px solid #8e22bb;
 }
+
+
 
 .btn:hover,
 .btn:active,
@@ -329,6 +331,36 @@ h2 {
     left:10px;
     width: 100%;
 }
+
+/**********************************/
+/********* Bottom Bar CSS admin *********/
+/**********************************/
+
+.search_adm{
+    position: relative;    
+    padding: 0 0 0;
+}
+.search_adm input{
+    width: 172px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: rgba(5, 5, 5, 0.793);
+    outline: none;
+    border: 1.5px solid silver;
+}
+
+
+
+.bottom-bar .search input[type=text] {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    color: #666666;
+    border: 1px solid #8e22bb;
+    border-radius: 4px;
+}
+
 
 .bottom-bar .search input[type=text] {
     width: 100%;
@@ -1642,6 +1674,7 @@ h2 {
     vertical-align: middle;
 }
 
+
 .wishlist-page .table td {
     font-size: 16px;
     vertical-align: middle;
@@ -1852,7 +1885,41 @@ h2 {
     vertical-align: middle;
 }
 
+/**********************************/
+/********* My Account Admin *********/
+/**********************************/
 
+.my-account_adm {
+    position: relative;
+    padding: 30px 0;
+}
+
+.my-account_adm .nav.nav-pills .nav-link {
+    padding: 10px 15px;
+    color: #353535;
+    background: #ffffff;
+    border-radius: 0;
+    border-bottom: 1px solid #dddddd;
+    transition: all .3s;
+}
+
+.my-account_adm .nav.nav-pills .nav-link:hover,
+.my-account_adm .nav.nav-pills .nav-link.active {
+    color: #ffffff;
+    background: #8e22bb;
+}
+.my-account_adm .tab-content .table td {
+    vertical-align: middle;
+}
+
+.my-account_adm .tab-content .table .thead-dark th {
+    text-align: center;
+    color: #353535;
+    background: #ffffff;
+    border-color: #dddddd;
+    border-bottom: none;
+    vertical-align: middle;
+}
 /**********************************/
 /******* Call to Action CSS *******/
 /**********************************/
@@ -2188,12 +2255,7 @@ h2 {
     padding-top: 30px;
 }
 
-.login h1{
-    margin: 0;
-    padding: 0 320px 10px;   
-    font-size: 30px;
-    text-align: right;
-}
+
 
 
 .login .login-form,
@@ -2203,7 +2265,21 @@ h2 {
     margin-bottom: 30px;
 }
 
+/**********************************/
+/****** Login_Adm CSS ******/
+/**********************************/
+.login_adm {
+    position: relative;
+    padding-top: 40px;
+    padding: 20px 0 40px;
+    left: 25%;
+    
+       
+}
 
+.titleadm {
+    text-align: center;
+}
 /**********************************/
 /********** Footer CSS ************/
 /**********************************/
