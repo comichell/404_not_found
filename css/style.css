@@ -664,6 +664,8 @@ h2 {
 /**********************************/
 .feature {
     position: relative;
+    right: -12%;
+
 }
 
 .feature .feature-col {
