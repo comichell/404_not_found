@@ -2252,7 +2252,11 @@ h2 {
 /**********************************/
 .login {
     position: relative;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding: 20px 0 40px;
+    left: 25%;
+    
+       
 }
 
 
