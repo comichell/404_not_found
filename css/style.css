@@ -2469,3 +2469,62 @@ h2 {
         text-align: center; 
     } 
 }
+
+/**********************************/
+/********* Form Cuenta CSS *********/
+/**********************************/
+.form-cuenta,
+.custom-select {
+
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    color: #999999;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px
+}
+
+.form-cuenta:focus,
+.custom-select:focus {
+    box-shadow: none;
+    border-color: #ffffff;
+}
+
+.custom-radio,
+.custom-checkbox {
+    margin-bottom: 15px;
+}
+
+.custom-radio .custom-control-label::before,
+.custom-checkbox .custom-control-label::before {
+    background: #6f6e6e;
+    border-color: #dddddd;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    color: #ffffff;
+    background: #8e22bb;
+    border-color: #8e22bb;
+    box-shadow: none;
+}
+
+.btn {
+    color: #8e22bb;
+    background: #ffffff;
+    border: 2px solid #8e22bb;
+}
+
+
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    color: #ffffff;
+    background: #8e22bb;
+    box-shadow: none;
+}
+
+.titlecuenta {
+    text-align: center;
+}
