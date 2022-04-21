@@ -126,7 +126,6 @@
                                 <div class="tituloadm1">
                                     <h1>GESTIONANDO MIS PRODUCTOS</h1>
                                 </div>
-                                
                                     <div class="productAdm">
                                         <form>
                                             <div class="idformI">
@@ -188,32 +187,31 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>1000</td>
-                                                <td>Royal Cannin</td>
+                                                <td>F100000000</td>
+                                                <td>Royal Canin</td>
                                                 <td>Comida de perro</td>
                                                 <td>$9.000</td>
                                                 <td>5%</td>
                                                 <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                <td><button class="pbtne">Editar</button> <button class="pbtnel">Eliminar</button></td>
                                             </tr>
                                             <tr>
-                                                <td>1222</td>
-                                                <td>Nombre del Producto</td>
-                                                <td>01 Abril 2022</td>
+                                                <td>F122222222</td>
+                                                <td>Royal Canin</td>
+                                                <td>Comida de Gato</td>
                                                 <td>$1.500</td>
                                                 <td>5%</td>
                                                 <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
-                                                
+                                                <td><button class="pbtne">Editar</button> <button class="pbtnel">Eliminar</button></td>
                                             </tr>
                                             <tr>
-                                                <td>1333</td>
-                                                <td>Nombre del Producto</td>
-                                                <td>01 Abril 2022</td>
-                                                <td>$5.0000</td>
+                                                <td>F133333333</td>
+                                                <td>Pedigree</td>
+                                                <td>Comida de perro</td>
+                                                <td>$5.000</td>
                                                 <td>0%</td>
                                                 <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                <td><button class="pbtne">Editar</button> <button class="pbtnel">Eliminar</button></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -225,25 +223,9 @@
                                 <div class="tituloadm2">
                                     <h1>GESTIONANDO MI INVENTARIO </h1>
                                 </div>
-                                    <div class="productAdm">
+                                    <div class="stockAdm">
                                         <form>
-                                            <div class="idformI">
-                                                <label>Nro Producto</label>
-                                                <input type="text">
-                                            </div>
-                                            <div class="idformN">
-                                                <label>Nombre</label>
-                                                <input type="text">
-                                            </div>
-                                            <div class="idformD">
-                                                <label>Descripción</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="idformP">
-                                                <label>Precio</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="idformC">
+                                            <div class="stockCat">
                                                 <label>Categoria</label>
                                                 <select>
                                                     <option value="nada">--------------------------------</option>
@@ -251,19 +233,17 @@
                                                     <option value="gato">Gato</option>
                                                 </select>
                                             </div>
-                                        
-                                            <div class="idformDS">
-                                                <label>Dscto%subs</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="idformDS2">
-                                                    <label>Dscto%ofertas</label>
+                                            <div class="stockN">
+                                                <label>Nombre</label>
                                                 <input type="text">
                                             </div>
+                                            <div class="stockC">
+                                                <label>Cantidad</label>
+                                                <input type="number">
+                                            </div>
+ 
                                             <div id="botones">
-                                                <button class="prim">GUARDAR</button>
-                                                <button class="sec">LIMPIAR</button>
-                                                <button class="ter">ELIMINAR</button>
+                                                <button class="agg">AGREGAR</button>
                                             </div>
                                         </form>
                                     </div>
@@ -274,13 +254,11 @@
                                     </div>
                                     <table class="table table-bordered">
                                         <thead class="thead-dark">
-                                            <tr>
+                                            <tr> 
                                                 <th>#Nro de Producto</th>
                                                 <th>Producto</th>
-                                                <th>Descripción</th>
-                                                <th>Precio</th>
-                                                <th>Subs %</th>
-                                                <th>Descuento %</th>
+                                                <th>Categoria</th>
+                                                <th>Estado</th>
                                                 <th>Acción</th>
                                             </tr>
                                         </thead>
@@ -288,30 +266,79 @@
                                             <tr>
                                                 <td>1000</td>
                                                 <td>Royal Cannin</td>
-                                                <td>Comida de perro</td>
-                                                <td>$9.000</td>
-                                                <td>5%</td>
-                                                <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                <td>Perro</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
                                             </tr>
                                             <tr>
                                                 <td>1222</td>
                                                 <td>Nombre del Producto</td>
-                                                <td>01 Abril 2022</td>
-                                                <td>$1.500</td>
-                                                <td>5%</td>
-                                                <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
-                                                
+                                                <td>Perro</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
                                             </tr>
                                             <tr>
                                                 <td>1333</td>
                                                 <td>Nombre del Producto</td>
-                                                <td>01 Abril 2022</td>
-                                                <td>$5.0000</td>
-                                                <td>0%</td>
-                                                <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                <td>Perro</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Gato</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Gato</td>
+                                                <td class="vendido">Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Gato</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="vendido">Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="vendido">Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="vendido">Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td>Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -323,45 +350,40 @@
                                 <div class="tituloadm3">
                                     <h1>GESTIONANDO MIS CLIENTES </h1>
                                 </div>
-                                    <div class="productAdm">
+                                    <div class="userAdm">
                                         <form>
-                                            <div class="idformI">
-                                                <label>E-MAIL</label>
+                                            <div class="userr">
+                                                <label>Rut</label>
                                                 <input type="text">
                                             </div>
-                                            <div class="idformN">
-                                                <label>Nombre</label>
+                                            <div class="userm">
+                                                <label>E-Mail</label>
                                                 <input type="text">
                                             </div>
-                                            <div class="idformD">
-                                                <label>Descripción</label>
+                                            <div class="usern">
+                                                <label>Nombres</label>
                                                     <input type="text">
                                             </div>
-                                            <div class="idformP">
-                                                <label>Precio</label>
+                                            <div class="usera">
+                                                <label>Apellidos</label>
+                                            <input type="text">
+                                            </div>
+                                            <div class="userd">
+                                                <label>Dirección</label>
                                                     <input type="text">
                                             </div>
-                                            <div class="idformC">
-                                                <label>Categoria</label>
-                                                <select>
-                                                    <option value="nada">--------------------------------</option>
-                                                    <option value="perro">Perro</option>
-                                                    <option value="gato">Gato</option>
-                                                </select>
-                                            </div>
-                                        
-                                            <div class="idformDS">
-                                                <label>Dscto%subs</label>
+                                            <div class="userc">
+                                                <label>Celular</label>
                                                     <input type="text">
                                             </div>
-                                            <div class="idformDS2">
-                                                    <label>Dscto%ofertas</label>
-                                                <input type="text">
+                                            <div class="usercn">
+                                                <label>Contraseña</label>
+                                                    <input type="text">
                                             </div>
-                                            <div id="botones">
-                                                <button class="prim">GUARDAR</button>
-                                                <button class="sec">LIMPIAR</button>
-                                                <button class="ter">ELIMINAR</button>
+                                            <div>
+                                                <button class="userg">GUARDAR</button>
+                                                <button class="userl">LIMPIAR</button>
+                                                <button class="userel">ELIMINAR</button>
                                             </div>
                                         </form>
                                     </div>
@@ -373,43 +395,52 @@
                                     <table class="table table-bordered">
                                         <thead class="thead-dark">
                                             <tr>
-                                                <th>#Nro de Producto</th>
-                                                <th>Producto</th>
-                                                <th>Descripción</th>
-                                                <th>Precio</th>
-                                                <th>Subs %</th>
-                                                <th>Descuento %</th>
+                                                <th>Rut Cliente</th>
+                                                <th>@Correo Electrónico</th>
+                                                <th>Nombre Completo</th>
+                                                <th>Dirección</th>
+                                                <th>Nro Celular</th>
+                                                <th>Contraseña</th>
                                                 <th>Acción</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>1000</td>
-                                                <td>Royal Cannin</td>
-                                                <td>Comida de perro</td>
-                                                <td>$9.000</td>
-                                                <td>5%</td>
-                                                <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                <td>129889408</td>
+                                                <td>zphituhgsy1@gmail.com</td>
+                                                <td>Carlos Samaniego Palomino</td>
+                                                <td>Maipu 23</td>
+                                                <td>973527959</td>
+                                                <td>lalaluni1234</td>
+                                                <td><button class="btnedi">Editar</button> <button class="btneli">Eliminar</button></td>
                                             </tr>
                                             <tr>
-                                                <td>1222</td>
-                                                <td>Nombre del Producto</td>
-                                                <td>01 Abril 2022</td>
-                                                <td>$1.500</td>
-                                                <td>5%</td>
-                                                <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                <td>129889408</td>
+                                                <td>zphituhgsy1@gmail.com</td>
+                                                <td>Carlos Samaniego Palomino</td>
+                                                <td>Maipu 23</td>
+                                                <td>973527959</td>
+                                                <td>lalaluni1234</td>
+                                                <td><button class="btnedi">Editar</button> <button class="btneli">Eliminar</button></td>
                                                 
                                             </tr>
                                             <tr>
-                                                <td>1333</td>
-                                                <td>Nombre del Producto</td>
-                                                <td>01 Abril 2022</td>
-                                                <td>$5.0000</td>
-                                                <td>0%</td>
-                                                <td>10%</td>
-                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                <td>129889408</td>
+                                                <td>zphituhgsy1@gmail.com</td>
+                                                <td>Carlos Samaniego Palomino</td>
+                                                <td>Maipu 23</td>
+                                                <td>973527959</td>
+                                                <td>lalaluni1234</td>
+                                                <td><button class="btnedi">Editar</button> <button class="btneli">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>129889408</td>
+                                                <td>zphituhgsy1@gmail.com</td>
+                                                <td>Carlos Samaniego Palomino</td>
+                                                <td>Maipu 23</td>
+                                                <td>973527959</td>
+                                                <td>lalaluni1234</td>
+                                                <td><button class="btnedi">Editar</button> <button class="btneli">Eliminar</button></td>
                                             </tr>
                                         </tbody>
                                     </table>

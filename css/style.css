@@ -1959,6 +1959,8 @@ h2 {
     height: 350px;
 }
 
+/**********************************/
+/*******  MAESTRO INVENTARIO *******/
 .my-account_adm .idform{
     text-align: left;
 }
@@ -2031,7 +2033,194 @@ h2 {
     color: #fff;
     background-color: #e74040;
 }
+/*******************************/
+.my-account_adm .pbtne{
+    border-radius: 6px;
+    padding: 10px;
+    border: 0px;
+    color: #fff;
+    background-color: #407ae7;
+}
 
+.my-account_adm .pbtnel{
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 2px;
+    border: 0px;
+    color: #fff;
+    background-color: #e74040;
+}
+
+
+
+/**********************************/
+/******* FIN MAESTRO INVENTARIO *******/
+/**********************************/
+
+
+/**********************************/
+/*******  INVENTARIO/STOCKS *******/
+
+
+
+.bodega{
+    background: rgb(78, 196, 98);
+    font-size: 20px;
+}
+.vendido{
+    background: rgb(255, 65, 44);
+    font-size: 20px;
+}
+.stockAdm form{
+    text-align: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    padding: 10px 10px 20px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 215px;
+}
+
+.stockN label{
+    text-align: left;
+    margin-right: 52px;
+}
+
+.stockCat label{
+    margin-right: 42px;
+    margin-top: 15px;
+}
+
+.stockCat select{
+    width: 196  px;
+    padding: 4px;
+}
+
+.stockC label{
+    text-align: left;
+    margin-right: 47px;
+}
+/***********BOTONES*****************/
+.my-account_adm .agg{
+    border-radius: 6px;
+    padding: 15px;
+    border: 0px;
+    margin-top: 10px;
+    margin-left: 36.8%;
+    color: #fff;    
+    background-color: #18b720b2;
+}
+
+.my-account_adm .btnElim{
+    border-radius: 6px;
+    padding: 10px;
+    border: 0px;
+    color: #fff;
+    background-color: #e74040;
+}
+
+
+/***********Fin stocks*********/
+
+
+/***********************************/
+/***********GESTOR USUARIOS*********/
+
+.userAdm form{
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    padding: 10px 10px 20px;
+    background-color: #ffffff;
+    width: 360px;
+    height: 350px;
+}
+
+.userr label{
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 64.5px;
+}
+
+.userm label{
+    text-align: left;
+    margin-right: 44.5px;
+}
+
+.usern label{
+    text-align: left;
+    margin-right: 21px;
+}
+
+.usera label{
+    text-align: left;
+    margin-right: 22.5px;
+}
+
+.userd label{
+    text-align: left;
+    margin-right: 21px;
+}
+
+.userc label{
+    text-align: left;
+    margin-right: 38px;
+}
+
+.usercn label{
+    text-align: left;
+    margin-right: 4px;
+}
+
+/*************botones************/
+.my-account_adm .userg{
+    border-radius: 6px;
+    padding: 10px;
+    border: 0px;
+    color: #fff;
+    background-color: #18b720b2;
+    margin-left: 11px;
+}
+.my-account_adm .userl{
+    border-radius: 6px;
+    margin-top: 22px;
+    margin-left: 16px ;
+    margin-right: 16px;
+    padding: 10px;
+    border: 0px;
+    color: #fff;
+    background-color: #5471f5;
+}
+
+.my-account_adm .userel{
+    border-radius: 6px;
+    padding: 10px;
+    border: 0px;
+    color: #fff;
+    background-color: #e74040;
+    margin-right: 11px;
+
+}
+
+
+.my-account_adm .btnedi{
+    border-radius: 6px;
+    padding: 6px;
+    border: 0px;
+    color: #fff;
+    background-color: #407ae7;
+}
+
+.my-account_adm .btneli{
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 2px;
+    border: 0px;
+    color: #fff;
+    background-color: #e74040;
+}
 /**********************************/
 /******* FIN admin_account *******/
 /**********************************/
