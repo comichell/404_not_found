@@ -20,6 +20,7 @@
         <link href="lib/slick/slick-theme.css" rel="stylesheet">   
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/logo_sinfondo.png"> <!--logo de pag-->
     </head>
 
     <body>
@@ -46,13 +47,14 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+
                             <a class="nav-link active" id="dashboard-nav" data-toggle="pill" href="#dashboard-tab" role="tab"><i class="fa fa-tachometer-alt"></i>Historial Ventas</a>
                             <a class="nav-link" id="orders-nav" data-toggle="pill" href="#orders-tab" role="tab"><i class="fa fa-shopping-bag"></i>Gestionar Productos</a>
                             
                             <!-- -->
-                            <a class="nav-link" id="orders-nav" data-toggle="pill" href="#orders-tab" role="tab"><i class="fas fa-socks"></i>Stock Productos</a>
-                            <i class=""></i>
-                            <a class="nav-link" id="orders-nav" data-toggle="pill" href="#orders-tab" role="tab"><i class="fas fa-users"></i>Registro de clientes</a>
+                            <a class="nav-link" id="orders-nav2" data-toggle="pill" href="#orders-tab2" role="tab"><i class="fas fa-socks"></i>Stock Productos</a>
+                            
+                            <a class="nav-link" id="orders-nav3" data-toggle="pill" href="#orders-tab3" role="tab"><i class="fas fa-users"></i>Registro de clientes</a>
                             <a class="nav-link" href="index.html"><i class="fa fa-sign-out-alt"></i>Salir</a>
                         </div>
                     </div>
@@ -119,10 +121,11 @@
                             <!-- fin historial ventas ADMIN -->
                             <!-- ------------------------------------------------- -->
                             <!-- Maestro Productos-->
-                            <div class="tituloadm1">
-                                <h1>GESTIONANDO MIS PRODUCTOS</h1>
-                            </div>
+                            
                             <div class="tab-pane fade" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
+                                <div class="tituloadm1">
+                                    <h1>GESTIONANDO MIS PRODUCTOS</h1>
+                                </div>
                                 
                                     <div class="productAdm">
                                         <form>
@@ -216,6 +219,299 @@
                                     </table>
                                 </div>
                             </div>
+                            <!-------------------------------------------------------------------------------------------->
+                           <!--INVENTARIO DE PRODUCTOS(STOCKS)-->
+                            <div class="tab-pane fade" id="orders-tab2" role="tabpanel" aria-labelledby="orders-nav2">
+                                <div class="tituloadm2">
+                                    <h1>GESTIONANDO MI INVENTARIO </h1>
+                                </div>
+                                    <div class="productAdm">
+                                        <form>
+                                            <div class="idformI">
+                                                <label>Nro Producto</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformN">
+                                                <label>Nombre</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformD">
+                                                <label>Descripción</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformP">
+                                                <label>Precio</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformC">
+                                                <label>Categoria</label>
+                                                <select>
+                                                    <option value="nada">--------------------------------</option>
+                                                    <option value="perro">Perro</option>
+                                                    <option value="gato">Gato</option>
+                                                </select>
+                                            </div>
+                                        
+                                            <div class="idformDS">
+                                                <label>Dscto%subs</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformDS2">
+                                                    <label>Dscto%ofertas</label>
+                                                <input type="text">
+                                            </div>
+                                            <div id="botones">
+                                                <button class="prim">GUARDAR</button>
+                                                <button class="sec">LIMPIAR</button>
+                                                <button class="ter">ELIMINAR</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                <br>
+                                <div class="table-responsive">
+                                    <div class="search_adm">
+                                        <input type="text" placeholder="Buscar">
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#Nro de Producto</th>
+                                                <th>Producto</th>
+                                                <th>Descripción</th>
+                                                <th>Precio</th>
+                                                <th>Subs %</th>
+                                                <th>Descuento %</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1000</td>
+                                                <td>Royal Cannin</td>
+                                                <td>Comida de perro</td>
+                                                <td>$9.000</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1222</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$1.500</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$5.0000</td>
+                                                <td>0%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!---------------------------->
+                            <!--USUARIOS/CLIENTES REGISTRADOS-->
+                            <div class="tab-pane fade" id="orders-tab3" role="tabpanel" aria-labelledby="orders-nav3">
+                                <div class="tituloadm3">
+                                    <h1>GESTIONANDO MIS CLIENTES </h1>
+                                </div>
+                                    <div class="productAdm">
+                                        <form>
+                                            <div class="idformI">
+                                                <label>E-MAIL</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformN">
+                                                <label>Nombre</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformD">
+                                                <label>Descripción</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformP">
+                                                <label>Precio</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformC">
+                                                <label>Categoria</label>
+                                                <select>
+                                                    <option value="nada">--------------------------------</option>
+                                                    <option value="perro">Perro</option>
+                                                    <option value="gato">Gato</option>
+                                                </select>
+                                            </div>
+                                        
+                                            <div class="idformDS">
+                                                <label>Dscto%subs</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformDS2">
+                                                    <label>Dscto%ofertas</label>
+                                                <input type="text">
+                                            </div>
+                                            <div id="botones">
+                                                <button class="prim">GUARDAR</button>
+                                                <button class="sec">LIMPIAR</button>
+                                                <button class="ter">ELIMINAR</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                <br>
+                                <div class="table-responsive">
+                                    <div class="search_adm">
+                                        <input type="text" placeholder="Buscar">
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#Nro de Producto</th>
+                                                <th>Producto</th>
+                                                <th>Descripción</th>
+                                                <th>Precio</th>
+                                                <th>Subs %</th>
+                                                <th>Descuento %</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1000</td>
+                                                <td>Royal Cannin</td>
+                                                <td>Comida de perro</td>
+                                                <td>$9.000</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1222</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$1.500</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$5.0000</td>
+                                                <td>0%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <div class="tab-pane fade" id="orders-tab2" role="tabpanel" aria-labelledby="orders-nav2">
+                                <div class="tituloadm2">
+                                    <h1>GESTIONANDO MI INVENTARIO  </h1>
+                                </div>
+                                
+                                    <div class="productAdm">
+                                        <form>
+                                            <div class="idformI">
+                                                <label>Nro Producto</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformN">
+                                                <label>Nombre</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformD">
+                                                <label>Descripción</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformP">
+                                                <label>Precio</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformC">
+                                                <label>Categoria</label>
+                                                <select>
+                                                    <option value="nada">--------------------------------</option>
+                                                    <option value="perro">Perro</option>
+                                                    <option value="gato">Gato</option>
+                                                </select>
+                                            </div>
+                                        
+                                            <div class="idformDS">
+                                                <label>Dscto%subs</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformDS2">
+                                                    <label>Dscto%ofertas</label>
+                                                <input type="text">
+                                            </div>
+                                            <div id="botones">
+                                                <button class="prim">GUARDAR</button>
+                                                <button class="sec">LIMPIAR</button>
+                                                <button class="ter">ELIMINAR</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                <br>
+                                <div class="table-responsive">
+                                    <div class="search_adm">
+                                        <input type="text" placeholder="Buscar">
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#Nro de Producto</th>
+                                                <th>Producto</th>
+                                                <th>Descripción</th>
+                                                <th>Precio</th>
+                                                <th>Subs %</th>
+                                                <th>Descuento %</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1000</td>
+                                                <td>Royal Cannin</td>
+                                                <td>Comida de perro</td>
+                                                <td>$9.000</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1222</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$1.500</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$5.0000</td>
+                                                <td>0%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
