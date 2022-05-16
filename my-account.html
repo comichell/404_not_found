@@ -30,29 +30,13 @@
 
         <div id="header"></div>  
          
-        <!-- Breadcrumb Start -->
-        <div class="breadcrumb-wrap">
-            <div class="container-fluid">
-                <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                    <li class="breadcrumb-item"><a href="#">Productos</a></li>
-                    <li class="breadcrumb-item active">Mi Cuenta</li>
-                </ul>
-            </div>
-        </div>
-        <!-- Breadcrumb End -->
         
         <!-- My Account Start -->
-        <div class="my-account">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active" id="orders-nav" data-toggle="pill" href="#orders-tab" role="tab"><i class="fa fa-shopping-bag"></i>Historial de Compras</a>
-                            <a class="nav-link" id="account-nav" data-toggle="pill" href="#account-tab" role="tab"><i class="fa fa-user"></i>Actualizar Cuenta</a>
-                            <a class="nav-link" href="index.html"><i class="fa fa-sign-out-alt"></i>Salir</a>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="row borde-bootstrap-row">
+                <h4>Mis Compras</h4>
+            </div>
+            <br>
                     
                             <div class="tab-pane fade show active" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
                                 <div class="table-responsive">
@@ -61,9 +45,9 @@
                                             <tr>
                                                 <th>Número de Factura</th>
                                                 <th>Fecha</th>
-                                                <th>Precio</th>
-                                                <th>Estado</th>
-                                                <th>Acción</th>
+                                                <th>Monto Total</th>
+                                                <th>Estado Actual</th>
+                                                <th>Opciones</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -71,67 +55,30 @@
                                                 <td>F234564321</td>
                                                 <td>01 Febrero 2022</td>
                                                 <td>$15.390</td>
-                                                <td>Aprobado</td>
+                                                <td>Entregado</td>
                                                 <td><button class="btn">Ver Detalle</button></td>
                                             </tr>
                                             <tr>
                                                 <td>F321456789</td>
                                                 <td>04 Marzo 2022</td>
                                                 <td>$18.300</td>
-                                                <td>Aprobado</td>
+                                                <td>Despachado</td>
                                                 <td><button class="btn">Ver Detalle</button></td>
                                             </tr>
                                             <tr>
                                                 <td>F987678987</td>
                                                 <td>23 Abril 2022</td>
                                                 <td>$36.500</td>
-                                                <td>Aprobado</td>
+                                                <td>En Bodega</td>
                                                 <td><button class="btn">Ver Detalle</button></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="account-tab" role="tabpanel" aria-labelledby="account-nav">
-                                <h3>Actualización de la Cuenta de Usuario</h3>
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <input class="form-cuenta" class="titlecuenta" type="text" placeholder="Nombre">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <input class="form-cuenta" type="text" placeholder="Apellido">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <input class="form-cuenta" type="text" placeholder="Nro Celular">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <input class="form-cuenta" type="text" placeholder="Email">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <input class="form-cuenta" type="text" placeholder="Dirección">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <input class="form-cuenta" type="password" placeholder="Contraseña Actual">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <input class="form-cuenta" type="text" placeholder="Nueva Contraseña">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <input class="form-cuenta" type="text" placeholder="Confirmar Contraseña">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <button class="btn">Actualizar Cuenta</button>
-                                        <br><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- My Account End -->
         
+        <br>
         <!-- Footer Start -->
         <div class="shell">
 
