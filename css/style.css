@@ -2834,3 +2834,7 @@ h2 {
 .titlecuenta {
     text-align: center;
 }
+
+.error {
+    color: red;
+}
