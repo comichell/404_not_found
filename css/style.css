@@ -1947,16 +1947,25 @@ h2 {
     text-decoration: underline 2px;
 
 }
+.productAdm{
+    max-width: 355px;
+}
 
 .productAdm form{
     text-align: left;
-    border-style: solid;
     border-width: 1px;
-    border-color: #ccc;
     padding: 10px 10px 20px;
     background-color: #ffffff;
     width: 350px;
-    height: 350px;
+    height: 355px;
+}
+.productAdm fieldset{
+    border: #ccc solid;
+}
+.productAdm legend{
+    margin-left: 10px;
+    max-width: 175px;
+    
 }
 
 /**********************************/
@@ -2071,16 +2080,29 @@ h2 {
     background: rgb(255, 65, 44);
     font-size: 20px;
 }
+
+.stockAdm{
+    max-width: 355px;
+}
 .stockAdm form{
     text-align: left;
-    border-style: solid;
     border-width: 2px;
-    border-color: #ccc;
     padding: 10px 10px 20px;
     background-color: #ffffff;
     width: 350px;
     height: 215px;
 }
+
+.stockAdm fieldset{
+    margin-top: 15px;
+    border: #ccc solid;
+}
+.stockAdm legend{
+    margin-left: 10px;
+    max-width: 172px; 
+}
+
+
 
 .stockN label{
     text-align: left;
@@ -2127,15 +2149,25 @@ h2 {
 /***********************************/
 /***********GESTOR USUARIOS*********/
 
+.userAdm{
+    max-width: 365px;
+}
+
 .userAdm form{
     text-align: left;
-    border-style: solid;
     border-width: 1px;
-    border-color: #ccc;
     padding: 10px 10px 20px;
     background-color: #ffffff;
     width: 360px;
-    height: 350px;
+    height: 350px;}
+
+.userAdm fieldset{
+    margin-top: 15px;
+    border: #ccc solid;
+}
+.userAdm legend{
+    margin-left: 10px;
+    max-width: 150px; 
 }
 
 .userr label{
