@@ -244,6 +244,14 @@ $(function() {
         });
     });
 
+    /*header2 */
+$(function() {
+    $.get("header copy.html", function(data) {
+        document.getElementById("header2").outerHTML = data;
+    });
+});
+
+
 /*footer */
 $(function() {
     $.get("footer.html", function(data) {
