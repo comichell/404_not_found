@@ -277,6 +277,13 @@ h2 {
     
 }
 
+.navbar-nava {
+    padding-left: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+    
+}
+
 @media (min-width: 768px) {
     .nav,
     .nav .navbar {
@@ -677,19 +684,26 @@ h2 {
 /**********************************/
 .us {
     position: relative;
-    padding: 20px 0;
 }
 .us .titulo{
     position: relative;
+    width: 50%;
     left: 2%;
     font-size: 38px;        
 }
 .us .texto{
-    position: relative;
+    position: static;
     margin: 1em;
-    left: 1%;
     font-size: 18px; 
 }
+/**apis**/
+.us .titulo2{
+    position: relative;
+    width: 50%;
+    left: 2%;
+    font-size: 38px;        
+}
+
 /**********************************/
 /*********** Feature CSS **********/
 /**********************************/
@@ -1146,7 +1160,7 @@ h2 {
 
 .product-detail .product-content .title h2 {
     font-size: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 53px;
 }
 
 .product-detail .product-content .ratting {
@@ -2864,3 +2878,7 @@ h2 {
 .titlecuenta {
     text-align: center;
 }
+
+/**********************************/
+/********* apis  CSS *********/
+/**********************************/
