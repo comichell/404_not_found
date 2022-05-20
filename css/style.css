@@ -23,6 +23,8 @@ a:focus {
 h1 {
     font-family: 'Source Code Pro', monospace;
     font-weight: 900;
+    
+      
 }
 
 h2 {
@@ -32,8 +34,8 @@ h2 {
 
 @media(min-width: 992px) {
     .container-fluid {
-        padding-right: 60px;
-        padding-left: 60px;
+        padding-right: 15px;
+        padding-left: 0px;
     }
 }
 
@@ -268,6 +270,20 @@ h2 {
     background: #f8f9fa;
 }
 
+.navbar-nav {
+    padding-left: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+    
+}
+
+.navbar-nava {
+    padding-left: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+    
+}
+
 @media (min-width: 768px) {
     .nav,
     .nav .navbar {
@@ -288,6 +304,7 @@ h2 {
     .nav .navbar-dark a.nav-link.active {
         color: #000000;
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -325,12 +342,16 @@ h2 {
 }
 
 .bottom-bar .logo a img {
-    max-height: 60px;
+    max-height: 70px;
 }
 
 .bottom-bar .search {
     left:10px;
     width: 100%;
+}
+
+#logo_superior {
+    width: 50px;
 }
 
 /**********************************/
@@ -452,7 +473,7 @@ h2 {
 
 .header .navbar-nav {
     width: 100%;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .header .navbar li {
@@ -508,7 +529,7 @@ h2 {
 }
 
 .header-slider .header-slider-caption .btn i {
-    margin-right: 5px;
+    margin-right: 5000px;
 }
 
 .header .header-img {
@@ -658,7 +679,30 @@ h2 {
 .category .category-name:hover p {
     margin: 0;       
 }
-
+/**********************************/
+/*********** US CSS ***********/
+/**********************************/
+.us {
+    position: relative;
+}
+.us .titulo{
+    position: relative;
+    width: 50%;
+    left: 2%;
+    font-size: 38px;        
+}
+.us .texto{
+    position: static;
+    margin: 1em;
+    font-size: 18px; 
+}
+/**apis**/
+.us .titulo2{
+    position: relative;
+    width: 50%;
+    left: 2%;
+    font-size: 38px;        
+}
 
 /**********************************/
 /*********** Feature CSS **********/
@@ -1116,7 +1160,7 @@ h2 {
 
 .product-detail .product-content .title h2 {
     font-size: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 53px;
 }
 
 .product-detail .product-content .ratting {
@@ -2835,6 +2879,6 @@ h2 {
     text-align: center;
 }
 
-.error {
-    color: red;
-}
+/**********************************/
+/********* apis  CSS *********/
+/**********************************/
