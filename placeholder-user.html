@@ -57,17 +57,28 @@
                                 <div class="row borde-bootstrap-row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
+                                            <label for="id">ID</label>
+                                            <input class="form-control" type="text" name="id" id="id" 
+                                                placeholder="Ingresa tu ID">
+                                        </div>
+                                        <div class="input-group radio">
+                                            <input type="radio" name="tipo-usuario" id="cliente" values="cliente">
+                                            <label for="cliente">Cliente</label>
+                                        </div>
+                                        <div class="input-group radio">
+                                            <input type="radio" name="tipo-usuario" id="administrador" values="administrador">
+                                            <label for="administrador">Administrador</label>
+                                        </div>
+
+
+
+                                        <div class="form-group">
                                             <label for="rut">RUT</label>
                                             <input class="form-control" type="text" name="rut" id="rut" 
                                                 aria-describedby="rut-help" placeholder="Ingresa tu RUT">
                                             <small id="rut-help" class="form-text text-muted">
                                                 Escribe tu RUT sin puntos y con guión, por ejemplo: 16560241-2
                                             </small>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="nombres">RUT</label>
-                                            <input class="form-control" type="text" name="nombres" id="nombres" 
-                                                placeholder="Escribe aquí tus nombres">
                                         </div>
                                         <div class="form-group">
                                             <label for="nombres">Nombres</label>
@@ -145,156 +156,55 @@
                                         <th>Nombres</th>
                                         <th>Apellidos</th>
                                         <th>Dirección</th>
-                                        <th>Acción</th>
+                                        <th>Con suscripción</th>
+                                        <th>Imagen</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>408</td>
-                                        <td>Registrado</td>
-                                        <td>Carlos Samaniego Palomino</td>
+                                        <td>Cliente</td>
+                                        <td>9.735.279-5</td>
+                                        <td>Carlos Andrés</td>
+                                        <td>Samaniego Palomino</td>
                                         <td>Maipu 23</td>
-                                        <td>973527959</td>
-                                        <td>************</td>
-                                        <td><button class="btnedi">Editar</button> <button
-                                                class="btneli">Eliminar</button></td>
+                                        <td>Sí</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>129</td>
-                                        <td>capitan3030@gmail.com</td>
-                                        <td>Carlos Samaniego Palomino</td>
-                                        <td>Maipu 23</td>
-                                        <td>973527959</td>
-                                        <td>************</td>
-                                        <td><button class="btnedi">Editar</button> <button
-                                                class="btneli">Eliminar</button></td>
-
+                                        <td>Administrador</td>
+                                        <td>15.500.200-7</td>
+                                        <td>María José</td>
+                                        <td>González López</td>
+                                        <td>Eliodoro Yañez 2000</td>
+                                        <td>No</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>889</td>
-                                        <td>esfera2022@gmail.com</td>
-                                        <td>Carlos Samaniego Palomino</td>
-                                        <td>Maipu 23</td>
-                                        <td>973527959</td>
-                                        <td>************</td>
-                                        <td><button class="btnedi">Editar</button> <button
-                                                class="btneli">Eliminar</button></td>
+                                        <td>Cliente</td>
+                                        <td>5.322.344-2</td>
+                                        <td>Eduardo Esteban</td>
+                                        <td>Muñoz Rojas</td>
+                                        <td>Vicuña Mackenna 400</td>
+                                        <td>Sí</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td>894</td>
-                                        <td>zphituhgsy1@gmail.com</td>
-                                        <td>Carlos Samaniego Palomino</td>
-                                        <td>Maipu 23</td>
-                                        <td>973527959</td>
-                                        <td>************</td>
-                                        <td><button class="btnedi">Editar</button> <button
-                                                class="btneli">Eliminar</button></td>
+                                        <td>394</td>
+                                        <td>Cliente</td>
+                                        <td>22.544.759-2</td>
+                                        <td>Ramona Luisa</td>
+                                        <td>Valdivia Soto</td>
+                                        <td>Tobalaba 2233</td>
+                                        <td>Sí</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="orders-tab2" role="tabpanel" aria-labelledby="orders-nav2">
-                        <div class="tituloadm2">
-                            <h1>GESTIONANDO MI INVENTARIO </h1>
-                        </div>
-
-                        <div class="productAdm">
-                            <form>
-                                <div class="idformI">
-                                    <label>Nro Producto</label>
-                                    <input type="text">
-                                </div>
-                                <div class="idformN">
-                                    <label>Nombre</label>
-                                    <input type="text">
-                                </div>
-                                <div class="idformD">
-                                    <label>Descripción</label>
-                                    <input type="text">
-                                </div>
-                                <div class="idformP">
-                                    <label>Precio</label>
-                                    <input type="text">
-                                </div>
-                                <div class="idformC">
-                                    <label>Categoria</label>
-                                    <select>
-                                        <option value="nada">--------------------------------</option>
-                                        <option value="perro">Perro</option>
-                                        <option value="gato">Gato</option>
-                                    </select>
-                                </div>
-
-                                <div class="idformDS">
-                                    <label>Dscto%subs</label>
-                                    <input type="text">
-                                </div>
-                                <div class="idformDS2">
-                                    <label>Dscto%ofertas</label>
-                                    <input type="text">
-                                </div>
-                                <div id="botones">
-                                    <button class="prim">GUARDAR</button>
-                                    <button class="sec">LIMPIAR</button>
-                                    <button class="ter">ELIMINAR</button>
-                                </div>
-                            </form>
-                        </div>
-                        <br>
-                        <div class="table-responsive">
-                            <div class="search_adm">
-                                <input type="text" placeholder="Buscar">
-                            </div>
-                            <table class="table table-bordered">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th>#Nro de Producto</th>
-                                        <th>Producto</th>
-                                        <th>Descripción</th>
-                                        <th>Precio</th>
-                                        <th>Subs %</th>
-                                        <th>Descuento %</th>
-                                        <th>Acción</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1000</td>
-                                        <td>Royal Cannin</td>
-                                        <td>Comida de perro</td>
-                                        <td>$9.000</td>
-                                        <td>5%</td>
-                                        <td>10%</td>
-                                        <td><button class="btn">Editar</button> <button class="btn">Eliminar</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1222</td>
-                                        <td>Nombre del Producto</td>
-                                        <td>01 Abril 2022</td>
-                                        <td>$1.500</td>
-                                        <td>5%</td>
-                                        <td>10%</td>
-                                        <td><button class="btn">Editar</button> <button class="btn">Eliminar</button>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>1333</td>
-                                        <td>Nombre del Producto</td>
-                                        <td>01 Abril 2022</td>
-                                        <td>$5.0000</td>
-                                        <td>0%</td>
-                                        <td>10%</td>
-                                        <td><button class="btn">Editar</button> <button class="btn">Eliminar</button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
