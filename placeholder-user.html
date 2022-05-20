@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Casa de Mascotas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="eCommerce HTML Template Free Download" name="keywords">
+    <meta content="eCommerce HTML Template Free Download" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo_sinfondo.png">
+    <!--logo de pag-->
+</head>
+
+<body>
+    <!-- Shell -->
+    <div class="shell">
+        <div id="header"></div>
+        <!-- End Shell -->
+
+
+
+        <!-- My Account Start -->
+        <div class="my-account_adm">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <!-- ------------------------------------------------- -->
+
+                        <!---------------------------->
+                        <!--USUARIOS/CLIENTES REGISTRADOS-->
+
+                        <body>
+                        </div>
+                        <div class="container">
+                            <div class="row borde-bootstrap-row">
+                                <h1>Mantenedor de Usuarios</h1>
+                            </div>
+                            <br>
+                            <form class="borde-bootstrap-row" action="registro.php" method="post" name="registro" id="registro">
+                                <div class="row borde-bootstrap-row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="id">ID</label>
+                                            <input class="form-control" type="text" name="id" id="id" 
+                                                placeholder="Ingresa tu ID">
+                                        </div>
+                                        <div class="input-group radio">
+                                            <input type="radio" name="tipo-usuario" id="cliente" values="cliente">
+                                            <label for="cliente">Cliente</label>
+                                        </div>
+                                        <div class="input-group radio">
+                                            <input type="radio" name="tipo-usuario" id="administrador" values="administrador">
+                                            <label for="administrador">Administrador</label>
+                                        </div>
+
+
+
+                                        <div class="form-group">
+                                            <label for="rut">RUT</label>
+                                            <input class="form-control" type="text" name="rut" id="rut" 
+                                                aria-describedby="rut-help" placeholder="Ingresa tu RUT">
+                                            <small id="rut-help" class="form-text text-muted">
+                                                Escribe tu RUT sin puntos y con guión, por ejemplo: 16560241-2
+                                            </small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="nombres">Nombres</label>
+                                            <input class="form-control" type="text" name="nombres" id="nombres" 
+                                                placeholder="Escribe aquí tus nombres">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="apellidos">Apellidos</label>
+                                            <input class="form-control" type="text" name="apellidos" id="apellidos" 
+                                                placeholder="Escribe aquí tus apellidos">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="direccion">Dirección</label>
+                                            <textarea class="form-control" name="direccion" id="direccion" cols="60" rows="5" 
+                                                aria-describedby="direccion-help"placeholder="Escribe aquí tu dirección"></textarea>
+                                            <small id="direccion-help" class="form-text text-muted">
+                                                Escribe tu direción completa con: calle, número, comuna y región
+                                            </small>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="consubscripcion" name="consubscripcion" 
+                                                aria-describedby="consubscripcion-help">
+                                            <label class="form-check-label" for="consubscripcion">Con subscripción</label>
+                                            <small id="consubscripcion-help" class="form-text text-muted">
+                                                Deseo subscribirme con un aporte de $3.000 mensuales
+                                                y obtener un 5% de descuento en mis compras
+                                            </small>
+                                        </div>
+                                        <div class="form-group">
+                                            <br>
+                                            <label for="password">Contraseña</label>
+                                            <input class="form-control" type="password" name="password" id="password" 
+                                                aria-describedby="password-help" placeholder="Escribe aquí tu contraseña">
+                                            <small id="password-help" class="form-text text-muted">
+                                                La contraseña debe tener un mínimo de 10 caracteres y 
+                                                debe contener al menos una mayúscula y un número
+                                            </small>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <img src="" width="300" height="300" alt="" name="fotoperfil" id="fotoperfil">
+                                            <br><br>
+                                            <input class="form-control-file" type="file" name="buscarfoto" id="buscarfoto">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row borde-bootstrap-row">
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <button type="reset" class="btn btn-secondary">Limpiar</button>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <button type="reset" class="btn btn-secondary">Eliminar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="table-responsive">
+                            <div class="search_adm">
+                                <input type="text" placeholder="Buscar">
+                            </div>
+                            <table class="table table-bordered">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Tipo Usuario</th>
+                                        <th>RUT</th>
+                                        <th>Nombres</th>
+                                        <th>Apellidos</th>
+                                        <th>Dirección</th>
+                                        <th>Con suscripción</th>
+                                        <th>Imagen</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>408</td>
+                                        <td>Cliente</td>
+                                        <td>9.735.279-5</td>
+                                        <td>Carlos Andrés</td>
+                                        <td>Samaniego Palomino</td>
+                                        <td>Maipu 23</td>
+                                        <td>Sí</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>129</td>
+                                        <td>Administrador</td>
+                                        <td>15.500.200-7</td>
+                                        <td>María José</td>
+                                        <td>González López</td>
+                                        <td>Eliodoro Yañez 2000</td>
+                                        <td>No</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>889</td>
+                                        <td>Cliente</td>
+                                        <td>5.322.344-2</td>
+                                        <td>Eduardo Esteban</td>
+                                        <td>Muñoz Rojas</td>
+                                        <td>Vicuña Mackenna 400</td>
+                                        <td>Sí</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>394</td>
+                                        <td>Cliente</td>
+                                        <td>22.544.759-2</td>
+                                        <td>Ramona Luisa</td>
+                                        <td>Valdivia Soto</td>
+                                        <td>Tobalaba 2233</td>
+                                        <td>Sí</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- My Account End -->
+
+    <!-- Footer Start -->
+    <div class="shell">
+
+        <div id="footer"></div>
+        <!-- Footer Bottom End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>

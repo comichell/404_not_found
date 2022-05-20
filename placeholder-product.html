@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Casa de Mascotas</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="eCommerce HTML Template Free Download" name="keywords">
+        <meta content="eCommerce HTML Template Free Download" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">   
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/logo_sinfondo.png"> <!--logo de pag-->
+    </head>
+
+    <body>
+        <!-- Shell -->
+      <div class="shell">
+
+        <div id="header"></div>  
+         
+
+        
+        <!-- My Account Start -->
+        <div class="my-account_adm">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+
+                            <a class="nav-link active" id="dashboard-nav" data-toggle="pill" href="#dashboard-tab" role="tab"><i class="fa fa-tachometer-alt"></i>Historial Ventas</a>
+                            <a class="nav-link" id="orders-nav" data-toggle="pill" href="#orders-tab" role="tab"><i class="fa fa-shopping-bag"></i>Gestionar Productos</a>
+                            
+                            <!-- -->
+                            <a class="nav-link" id="orders-nav2" data-toggle="pill" href="#orders-tab2" role="tab"><i class="fas fa-socks"></i>Stock Productos</a>
+                            
+                            <a class="nav-link" id="orders-nav3" data-toggle="pill" href="#orders-tab3" role="tab"><i class="fas fa-users"></i>Registro de clientes</a>
+                            <a class="nav-link" href="index.html"><i class="fa fa-sign-out-alt"></i>Salir</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <!-- Historial ventas-->
+                        <div class="tab-content">  <!-- a tener en cuenta-->
+                            <div class="tab-pane fade show active" id="dashboard-tab" role="tabpanel" aria-labelledby="dashboard-nav">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <div><h1 class="titulov">=== HISTORIAL VENTAS ===</h1> <br></div>
+                                            <tr>
+                                                <th>#Nro de Factura</th>
+                                                <th>Categoria</th>
+                                                <th>Fecha</th>
+                                                <th>Total</th>
+                                                <th>Estado</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>F124555433</td>
+                                                <td>Perro</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$ 20.500</td>
+                                                <td>Aprobado</td>
+                                                <td><button class="btn">Ver Detalle</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>F124666542</td>
+                                                <td>Gato</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$ 20.500</td>
+                                                <td>Aprobado</td>
+                                                <td><button class="btn"> Ver Detalle </button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>F124777354</td>
+                                                <td>Perro</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$ 10.500</td>
+                                                <td>Aprobado</td>
+                                                <td><button class="btn">Ver Detalle</button></td>
+                                            </tr>
+                                                <td>F124888712</td>
+                                                <td>Perro</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$ 10.500</td>
+                                                <td>Aprobado</td>
+                                                <td><button class="btn">Ver Detalle</button></td>
+                                            </tr>
+                                                <td>F124999674</td>
+                                                <td>Perro</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$ 10.500</td>
+                                                <td>Aprobado</td>
+                                                <td><button class="btn">Ver Detalle</button></td>
+                                            </tr>                                                                                      
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- fin historial ventas ADMIN -->
+                            <!-- ------------------------------------------------- -->
+                            <!-- Maestro Productos-->
+                            
+                            <div class="tab-pane fade" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
+                                <div class="tituloadm1">
+                                    <h1>GESTIONANDO MIS PRODUCTOS</h1>
+                                </div>
+                                    <div class="productAdm">
+                                        <form>
+                                            <div class="idformI">
+                                                <label>Nro Producto</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformN">
+                                                <label>Nombre</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformD">
+                                                <label>Descripción</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformP">
+                                                <label>Precio</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformC">
+                                                <label>Categoria</label>
+                                                <select>
+                                                    <option value="nada">--------------------------------</option>
+                                                    <option value="perro">Perro</option>
+                                                    <option value="gato">Gato</option>
+                                                </select>
+                                            </div>
+                                        
+                                            <div class="idformDS">
+                                                <label>Dscto%subs</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformDS2">
+                                                    <label>Dscto%ofertas</label>
+                                                <input type="text">
+                                            </div>
+                                            <div id="botones">
+                                                <button class="prim">GUARDAR</button>
+                                                <button class="sec">LIMPIAR</button>
+                                                <button class="ter">ELIMINAR</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                <br>
+                                <div class="table-responsive">
+                                    <div class="search_adm">
+                                        <input type="text" placeholder="Buscar">
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#Nro de Producto</th>
+                                                <th>Producto</th>
+                                                <th>Descripción</th>
+                                                <th>Precio</th>
+                                                <th>Subs %</th>
+                                                <th>Descuento %</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>F100000000</td>
+                                                <td>Royal Canin</td>
+                                                <td>Comida de perro</td>
+                                                <td>$9.000</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="pbtne">Editar</button> <button class="pbtnel">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>F122222222</td>
+                                                <td>Royal Canin</td>
+                                                <td>Comida de Gato</td>
+                                                <td>$1.500</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="pbtne">Editar</button> <button class="pbtnel">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>F133333333</td>
+                                                <td>Pedigree</td>
+                                                <td>Comida de perro</td>
+                                                <td>$5.000</td>
+                                                <td>0%</td>
+                                                <td>10%</td>
+                                                <td><button class="pbtne">Editar</button> <button class="pbtnel">Eliminar</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-------------------------------------------------------------------------------------------->
+                           <!--INVENTARIO DE PRODUCTOS(STOCKS)-->
+                            <div class="tab-pane fade" id="orders-tab2" role="tabpanel" aria-labelledby="orders-nav2">
+                                <div class="tituloadm2">
+                                    <h1>GESTIONANDO MI INVENTARIO </h1>
+                                </div>
+                                    <div class="stockAdm">
+                                        <form>
+                                            <div class="stockCat">
+                                                <label>Categoria</label>
+                                                <select>
+                                                    <option value="nada">--------------------------------</option>
+                                                    <option value="perro">Perro</option>
+                                                    <option value="gato">Gato</option>
+                                                </select>
+                                            </div>
+                                            <div class="stockN">
+                                                <label>Nombre</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="stockC">
+                                                <label>Cantidad</label>
+                                                <input type="number">
+                                            </div>
+ 
+                                            <div id="botones">
+                                                <button class="agg">AGREGAR</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                <br>
+                                <div class="table-responsive">
+                                    <div class="search_adm">
+                                        <input type="text" placeholder="Buscar">
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr> 
+                                                <th>#Nro de Producto</th>
+                                                <th>Producto</th>
+                                                <th>Categoria</th>
+                                                <th>Estado</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1000</td>
+                                                <td>Royal Cannin</td>
+                                                <td>Perro</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1222</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Gato</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Gato</td>
+                                                <td class="vendido">Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Gato</td>
+                                                <td class="bodega">En bodega</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="vendido">Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="vendido">Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td class="vendido">Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>Perro</td>
+                                                <td>Vendido</td>
+                                                <td><button class="btnElim">Eliminar</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!---------------------------->
+                            <!--USUARIOS/CLIENTES REGISTRADOS-->
+                            <div class="tab-pane fade" id="orders-tab3" role="tabpanel" aria-labelledby="orders-nav3">
+                                <div class="tituloadm3">
+                                    <h1>GESTIONANDO MIS CLIENTES </h1>
+                                </div>
+                                    <div class="userAdm">
+                                        <form>
+                                            <div class="userr">
+                                                <label>Rut</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="userm">
+                                                <label>E-Mail</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="usern">
+                                                <label>Nombres</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="usera">
+                                                <label>Apellidos</label>
+                                            <input type="text">
+                                            </div>
+                                            <div class="userd">
+                                                <label>Dirección</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="userc">
+                                                <label>Celular</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="usercn">
+                                                <label>Contraseña</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div>
+                                                <button class="userg">GUARDAR</button>
+                                                <button class="userl">LIMPIAR</button>
+                                                <button class="userel">ELIMINAR</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                <br>
+                                <div class="table-responsive">
+                                    <div class="search_adm">
+                                        <input type="text" placeholder="Buscar">
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>Rut Cliente</th>
+                                                <th>@Correo Electrónico</th>
+                                                <th>Nombre Completo</th>
+                                                <th>Dirección</th>
+                                                <th>Nro Celular</th>
+                                                <th>Contraseña</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>129889408</td>
+                                                <td>zphituhgsy1@gmail.com</td>
+                                                <td>Carlos Samaniego Palomino</td>
+                                                <td>Maipu 23</td>
+                                                <td>973527959</td>
+                                                <td>lalaluni1234</td>
+                                                <td><button class="btnedi">Editar</button> <button class="btneli">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>129889408</td>
+                                                <td>zphituhgsy1@gmail.com</td>
+                                                <td>Carlos Samaniego Palomino</td>
+                                                <td>Maipu 23</td>
+                                                <td>973527959</td>
+                                                <td>lalaluni1234</td>
+                                                <td><button class="btnedi">Editar</button> <button class="btneli">Eliminar</button></td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>129889408</td>
+                                                <td>zphituhgsy1@gmail.com</td>
+                                                <td>Carlos Samaniego Palomino</td>
+                                                <td>Maipu 23</td>
+                                                <td>973527959</td>
+                                                <td>lalaluni1234</td>
+                                                <td><button class="btnedi">Editar</button> <button class="btneli">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>129889408</td>
+                                                <td>zphituhgsy1@gmail.com</td>
+                                                <td>Carlos Samaniego Palomino</td>
+                                                <td>Maipu 23</td>
+                                                <td>973527959</td>
+                                                <td>lalaluni1234</td>
+                                                <td><button class="btnedi">Editar</button> <button class="btneli">Eliminar</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <div class="tab-pane fade" id="orders-tab2" role="tabpanel" aria-labelledby="orders-nav2">
+                                <div class="tituloadm2">
+                                    <h1>GESTIONANDO MI INVENTARIO  </h1>
+                                </div>
+                                
+                                    <div class="productAdm">
+                                        <form>
+                                            <div class="idformI">
+                                                <label>Nro Producto</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformN">
+                                                <label>Nombre</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="idformD">
+                                                <label>Descripción</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformP">
+                                                <label>Precio</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformC">
+                                                <label>Categoria</label>
+                                                <select>
+                                                    <option value="nada">--------------------------------</option>
+                                                    <option value="perro">Perro</option>
+                                                    <option value="gato">Gato</option>
+                                                </select>
+                                            </div>
+                                        
+                                            <div class="idformDS">
+                                                <label>Dscto%subs</label>
+                                                    <input type="text">
+                                            </div>
+                                            <div class="idformDS2">
+                                                    <label>Dscto%ofertas</label>
+                                                <input type="text">
+                                            </div>
+                                            <div id="botones">
+                                                <button class="prim">GUARDAR</button>
+                                                <button class="sec">LIMPIAR</button>
+                                                <button class="ter">ELIMINAR</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                <br>
+                                <div class="table-responsive">
+                                    <div class="search_adm">
+                                        <input type="text" placeholder="Buscar">
+                                    </div>
+                                    <table class="table table-bordered">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#Nro de Producto</th>
+                                                <th>Producto</th>
+                                                <th>Descripción</th>
+                                                <th>Precio</th>
+                                                <th>Subs %</th>
+                                                <th>Descuento %</th>
+                                                <th>Acción</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1000</td>
+                                                <td>Royal Cannin</td>
+                                                <td>Comida de perro</td>
+                                                <td>$9.000</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1222</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$1.500</td>
+                                                <td>5%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>1333</td>
+                                                <td>Nombre del Producto</td>
+                                                <td>01 Abril 2022</td>
+                                                <td>$5.0000</td>
+                                                <td>0%</td>
+                                                <td>10%</td>
+                                                <td><button class="btn">Editar</button> <button class="btn">Eliminar</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- My Account End -->
+        
+        <!-- Footer Start -->
+        <div class="shell">
+
+        <div id="footer"></div>  
+        <!-- Footer Bottom End -->       
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
