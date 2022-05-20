@@ -124,49 +124,52 @@
                             
                             <div class="tab-pane fade" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
                                 <div class="tituloadm1">
-                                    <h1>GESTIONANDO MIS PRODUCTOS</h1>
+                                    <h1>ADMINISTRADOR DE PRODUCTOS</h1>
+                                    <br>
                                 </div>
                                     <div class="productAdm">
-                                        <form>
-                                            <div class="idformI">
-                                                <label>Nro Producto</label>
-                                                <input type="text">
-                                            </div>
-                                            <div class="idformN">
-                                                <label>Nombre</label>
-                                                <input type="text">
-                                            </div>
-                                            <div class="idformD">
-                                                <label>Descripción</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="idformP">
-                                                <label>Precio</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="idformC">
-                                                <label>Categoria</label>
-                                                <select>
-                                                    <option value="nada">--------------------------------</option>
-                                                    <option value="perro">Perro</option>
-                                                    <option value="gato">Gato</option>
-                                                </select>
-                                            </div>
-                                        
-                                            <div class="idformDS">
-                                                <label>Dscto%subs</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="idformDS2">
-                                                    <label>Dscto%ofertas</label>
-                                                <input type="text">
-                                            </div>
-                                            <div id="botones">
-                                                <button class="prim">GUARDAR</button>
-                                                <button class="sec">LIMPIAR</button>
-                                                <button class="ter">ELIMINAR</button>
-                                            </div>
-                                        </form>
+                                        <fieldset>
+                                            <legend> Datos Producto</legend>
+                                                <form>
+                                                    <div class="idformI">
+                                                        <label>Nro Producto</label>
+                                                        <input type="text">
+                                                    </div>
+                                                    <div class="idformN">
+                                                        <label>Nombre</label>
+                                                        <input type="text">
+                                                    </div>
+                                                    <div class="idformD">
+                                                        <label>Descripción</label>
+                                                            <input type="text">
+                                                    </div>
+                                                    <div class="idformP">
+                                                        <label>Precio</label>
+                                                            <input type="text">
+                                                    </div>
+                                                    <div class="idformC">
+                                                        <label>Categoria</label>
+                                                        <select>
+                                                            <option value="nada">--------------------------------</option>
+                                                            <option value="perro">Perro</option>
+                                                            <option value="gato">Gato</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="idformDS">
+                                                        <label>Dscto%subs</label>
+                                                            <input type="text">
+                                                    </div>
+                                                    <div class="idformDS2">
+                                                            <label>Dscto%ofertas</label>
+                                                        <input type="text">
+                                                    </div>
+                                                    <div id="botones">
+                                                        <button class="prim">GUARDAR</button>
+                                                        <button class="sec">LIMPIAR</button>
+                                                        <button class="ter">ELIMINAR</button>
+                                                    </div>
+                                                </form>
+                                        </fieldset>
                                     </div>
                                 <br>
                                 <div class="table-responsive">
@@ -224,28 +227,31 @@
                                     <h1>GESTIONANDO MI INVENTARIO </h1>
                                 </div>
                                     <div class="stockAdm">
-                                        <form>
-                                            <div class="stockCat">
-                                                <label>Categoria</label>
-                                                <select>
-                                                    <option value="nada">--------------------------------</option>
-                                                    <option value="perro">Perro</option>
-                                                    <option value="gato">Gato</option>
-                                                </select>
-                                            </div>
-                                            <div class="stockN">
-                                                <label>Nombre</label>
-                                                <input type="text">
-                                            </div>
-                                            <div class="stockC">
-                                                <label>Cantidad</label>
-                                                <input type="number">
-                                            </div>
- 
-                                            <div id="botones">
-                                                <button class="agg">AGREGAR</button>
-                                            </div>
-                                        </form>
+                                        <fieldset>
+                                            <legend>Stock Producto</legend>
+                                            <form>
+                                                <div class="stockCat">
+                                                    <label>Categoria</label>
+                                                    <select>
+                                                        <option value="nada">--------------------------------</option>
+                                                        <option value="perro">Perro</option>
+                                                        <option value="gato">Gato</option>
+                                                    </select>
+                                                </div>
+                                                <div class="stockN">
+                                                    <label>Nombre</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="stockC">
+                                                    <label>Cantidad</label>
+                                                    <input type="number">
+                                                </div>
+    
+                                                <div id="botones">
+                                                    <button class="agg">AGREGAR</button>
+                                                </div>
+                                            </form>
+                                        </fieldset>
                                     </div>
                                 <br>
                                 <div class="table-responsive">
@@ -351,41 +357,44 @@
                                     <h1>GESTIONANDO MIS CLIENTES </h1>
                                 </div>
                                     <div class="userAdm">
-                                        <form>
-                                            <div class="userr">
-                                                <label>Rut</label>
+                                        <fieldset>
+                                            <legend>Datos Cliente</legend>
+                                            <form>
+                                                <div class="userr">
+                                                    <label>Rut</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="userm">
+                                                    <label>E-Mail</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="usern">
+                                                    <label>Nombres</label>
+                                                        <input type="text">
+                                                </div>
+                                                <div class="usera">
+                                                    <label>Apellidos</label>
                                                 <input type="text">
-                                            </div>
-                                            <div class="userm">
-                                                <label>E-Mail</label>
-                                                <input type="text">
-                                            </div>
-                                            <div class="usern">
-                                                <label>Nombres</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="usera">
-                                                <label>Apellidos</label>
-                                            <input type="text">
-                                            </div>
-                                            <div class="userd">
-                                                <label>Dirección</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="userc">
-                                                <label>Celular</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div class="usercn">
-                                                <label>Contraseña</label>
-                                                    <input type="text">
-                                            </div>
-                                            <div>
-                                                <button class="userg">GUARDAR</button>
-                                                <button class="userl">LIMPIAR</button>
-                                                <button class="userel">ELIMINAR</button>
-                                            </div>
-                                        </form>
+                                                </div>
+                                                <div class="userd">
+                                                    <label>Dirección</label>
+                                                        <input type="text">
+                                                </div>
+                                                <div class="userc">
+                                                    <label>Celular</label>
+                                                        <input type="text">
+                                                </div>
+                                                <div class="usercn">
+                                                    <label>Contraseña</label>
+                                                        <input type="text">
+                                                </div>
+                                                <div>
+                                                    <button class="userg">GUARDAR</button>
+                                                    <button class="userl">LIMPIAR</button>
+                                                    <button class="userel">ELIMINAR</button>
+                                                </div>
+                                            </form>
+                                        </fieldset>
                                     </div>
                                 <br>
                                 <div class="table-responsive">

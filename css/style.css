@@ -34,8 +34,8 @@ h2 {
 
 @media(min-width: 992px) {
     .container-fluid {
-        padding-right: 15px;
-        padding-left: 0px;
+        padding-right: 60px;
+        padding-left: 60px;
     }
 }
 
@@ -342,7 +342,7 @@ h2 {
 }
 
 .bottom-bar .logo a img {
-    max-height: 70px;
+    max-height: 60px;
 }
 
 .bottom-bar .search {
@@ -473,7 +473,7 @@ h2 {
 
 .header .navbar-nav {
     width: 100%;
-    padding: 5px 0;
+    padding: 15px 0;
 }
 
 .header .navbar li {
@@ -529,7 +529,7 @@ h2 {
 }
 
 .header-slider .header-slider-caption .btn i {
-    margin-right: 5000px;
+    margin-right: 5px;
 }
 
 .header .header-img {
@@ -679,30 +679,7 @@ h2 {
 .category .category-name:hover p {
     margin: 0;       
 }
-/**********************************/
-/*********** US CSS ***********/
-/**********************************/
-.us {
-    position: relative;
-}
-.us .titulo{
-    position: relative;
-    width: 50%;
-    left: 2%;
-    font-size: 38px;        
-}
-.us .texto{
-    position: static;
-    margin: 1em;
-    font-size: 18px; 
-}
-/**apis**/
-.us .titulo2{
-    position: relative;
-    width: 50%;
-    left: 2%;
-    font-size: 38px;        
-}
+
 
 /**********************************/
 /*********** Feature CSS **********/
@@ -1991,16 +1968,25 @@ h2 {
     text-decoration: underline 2px;
 
 }
+.productAdm{
+    max-width: 355px;
+}
 
 .productAdm form{
     text-align: left;
-    border-style: solid;
     border-width: 1px;
-    border-color: #ccc;
     padding: 10px 10px 20px;
     background-color: #ffffff;
     width: 350px;
-    height: 350px;
+    height: 355px;
+}
+.productAdm fieldset{
+    border: #ccc solid;
+}
+.productAdm legend{
+    margin-left: 10px;
+    max-width: 175px;
+    
 }
 
 /**********************************/
@@ -2115,16 +2101,29 @@ h2 {
     background: rgb(255, 65, 44);
     font-size: 20px;
 }
+
+.stockAdm{
+    max-width: 355px;
+}
 .stockAdm form{
     text-align: left;
-    border-style: solid;
     border-width: 2px;
-    border-color: #ccc;
     padding: 10px 10px 20px;
     background-color: #ffffff;
     width: 350px;
     height: 215px;
 }
+
+.stockAdm fieldset{
+    margin-top: 15px;
+    border: #ccc solid;
+}
+.stockAdm legend{
+    margin-left: 10px;
+    max-width: 172px; 
+}
+
+
 
 .stockN label{
     text-align: left;
@@ -2171,15 +2170,30 @@ h2 {
 /***********************************/
 /***********GESTOR USUARIOS*********/
 
+.userAdm{
+    max-width: 365px;
+}
+
 .userAdm form{
     text-align: left;
-    border-style: solid;
     border-width: 1px;
-    border-color: #ccc;
     padding: 10px 10px 20px;
     background-color: #ffffff;
+<<<<<<< HEAD
+    width: 360px;
+    height: 350px;}
+
+.userAdm fieldset{
+    margin-top: 15px;
+    border: #ccc solid;
+}
+.userAdm legend{
+    margin-left: 10px;
+    max-width: 150px; 
+=======
     width: 450px;
     height: 450px;
+>>>>>>> master
 }
 
 .userr label{
@@ -2879,6 +2893,3 @@ h2 {
     text-align: center;
 }
 
-/**********************************/
-/********* apis  CSS *********/
-/**********************************/
