@@ -62,11 +62,11 @@
                                                 placeholder="Ingresa tu ID">
                                         </div>
                                         <div class="mt-3 form-floating">
+                                            <label for="input1">Tipo de Usuario</label>
                                             <select class="form-select">
                                                 <option>Cliente</option>
                                                 <option>Administrador</option>
                                             </select>
-                                            <label for="input1">Tipo de Usuario</label>
                                         </div>
                                         <div class="form-group">
                                             <label for="rut">RUT</label>
@@ -88,10 +88,10 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="direccion">Dirección</label>
-                                            <textarea class="form-control" name="direccion" id="direccion" cols="60" rows="5" 
+                                            <textarea class="form-control" name="direccion" id="direccion" cols="30" rows="3" 
                                                 aria-describedby="direccion-help"placeholder="Escribe aquí tu dirección"></textarea>
                                             <small id="direccion-help" class="form-text text-muted">
-                                                Escribe tu direción completa con: calle, número, comuna y región
+                                                Escribe tu direción completa con: calle, número, comuna y región.
                                             </small>
                                         </div>
                                         <div class="form-check">
@@ -100,7 +100,7 @@
                                             <label class="form-check-label" for="consubscripcion">Con subscripción</label>
                                             <small id="consubscripcion-help" class="form-text text-muted">
                                                 Deseo subscribirme con un aporte de $3.000 mensuales
-                                                y obtener un 5% de descuento en mis compras
+                                                y obtener un 5% de descuento en mis compras.
                                             </small>
                                         </div>
                                         <div class="form-group">
@@ -109,8 +109,10 @@
                                             <input class="form-control" type="password" name="password" id="password" 
                                                 aria-describedby="password-help" placeholder="Escribe aquí tu contraseña">
                                             <small id="password-help" class="form-text text-muted">
+                                                <button type="reset" class="btn">Generar Contraseña</button>
+                                                <br>
                                                 La contraseña debe tener un mínimo de 10 caracteres y 
-                                                debe contener al menos una mayúscula y un número
+                                                debe contener al menos una mayúscula y un número.
                                             </small>
                                         </div>
                                     </div>
@@ -122,24 +124,17 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row borde-bootstrap-row">
-                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                <div class="mt-3 row borde-bootstrap-row">
+                                    <button type="submit" class="btn">Guardar</button>
                                     &nbsp;&nbsp;&nbsp;
-                                    <button type="reset" class="btn btn-secondary">Limpiar</button>
+                                    <button type="submit" class="btn">Nuevo</button>
                                     &nbsp;&nbsp;&nbsp;
-                                    <button type="reset" class="btn btn-secondary">Eliminar</button>
+                                    <button type="reset" class="btn">Eliminar</button>
                                 </div>
                             </form>
                         </div>
                         <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <div class="table-responsive">
+                        <div class="mt-5 table-responsive">
                             <div class="search_adm">
                                 <input type="text" placeholder="Buscar">
                             </div>
@@ -165,7 +160,7 @@
                                         <td>Samaniego Palomino</td>
                                         <td>Maipu 23</td>
                                         <td>Sí</td>
-                                        <td></td>
+                                        <td><img src="" width="50" height="50" alt="" name="fotoperfil" id="fotoperfil"></td>
                                     </tr>
                                     <tr>
                                         <td>129</td>
@@ -175,7 +170,7 @@
                                         <td>González López</td>
                                         <td>Eliodoro Yañez 2000</td>
                                         <td>No</td>
-                                        <td></td>
+                                        <td><img src="" width="50" height="50" alt="" name="fotoperfil" id="fotoperfil"></td>
                                     </tr>
                                     <tr>
                                         <td>889</td>
@@ -185,7 +180,7 @@
                                         <td>Muñoz Rojas</td>
                                         <td>Vicuña Mackenna 400</td>
                                         <td>Sí</td>
-                                        <td></td>
+                                        <td><img src="" width="50" height="50" alt="" name="fotoperfil" id="fotoperfil"></td>
                                     </tr>
                                     <tr>
                                         <td>394</td>
@@ -195,7 +190,7 @@
                                         <td>Valdivia Soto</td>
                                         <td>Tobalaba 2233</td>
                                         <td>Sí</td>
-                                        <td></td>
+                                        <td><img src="" width="50" height="50" alt="" name="fotoperfil" id="fotoperfil"></td>
                                     </tr>
                                 </tbody>
                             </table>

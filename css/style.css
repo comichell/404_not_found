@@ -70,6 +70,7 @@ h2 {
 /********* Form Input CSS *********/
 /**********************************/
 .form-control,
+.form-select,
 .custom-select {
 
     width: 100%;
@@ -106,9 +107,9 @@ h2 {
 }
 
 .btn {
-    color: #8e22bb;
-    background: #ffffff;
-    border: 2px solid #8e22bb;
+    color: #ffffff;
+    background: #8e22bb;
+    border: 2px solid #ffffff;
 }
 
 
