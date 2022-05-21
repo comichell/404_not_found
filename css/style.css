@@ -2180,7 +2180,6 @@ h2 {
     border-width: 1px;
     padding: 10px 10px 20px;
     background-color: #ffffff;
-<<<<<<< HEAD
     width: 360px;
     height: 350px;}
 
@@ -2191,10 +2190,6 @@ h2 {
 .userAdm legend{
     margin-left: 10px;
     max-width: 150px; 
-=======
-    width: 450px;
-    height: 450px;
->>>>>>> master
 }
 
 .userr label{
@@ -2649,6 +2644,110 @@ h2 {
 .titleadm {
     text-align: center;
 }
+
+/****** Admin administrador ACCESO ******/
+/**********************************/
+.administrar{
+    margin-left: 20px;
+    border: #000000 solid;
+    padding-top: 0;
+    width: 1498px;
+    height: 600px;
+    max-width: 1500px;
+    position: fixed;
+}
+.administrar h2{
+    margin-top: 10px;
+    font-size: 40px;
+    position: static;   
+}
+/**********************************/
+.mtn_users{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 200px;
+    height: 150px;
+    background-color: #333;  
+}
+.mtn_productos{
+    margin-top: -10%;
+    margin-left: 60%;
+    width: 200px;
+    height: 150px;
+    background-color: #333;  
+}
+.mtn_ventas{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 200px;
+    height: 150px;
+    background-color: #333;  
+}
+.mtn_bodega{
+    margin-left: 60%;
+    margin-top: -10%;
+    width: 200px;
+    height: 150px;
+    background-color: #333;  
+}
+
+
+/**********LINKS**************/ 
+
+#mant_users {
+    font-size: 25px;
+    display: block;
+    color: white;
+    padding: 20px;
+    padding-bottom: 55px;
+    text-decoration: none;
+}
+#mant_users:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.01,1.01);
+}
+
+#mant_productos{
+    font-size: 25px;
+    display: block;
+    color: white;
+    padding: 20px;
+    padding-bottom: 55px;
+    text-decoration: none;  
+}
+#mant_productos:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.01,1.01);
+}
+
+#mant_hist_ventas{
+    font-size: 25px;
+    display: block;
+    color: white;
+    padding: 20px;
+    padding-bottom: 55px;
+    text-decoration: none;
+}
+#mant_hist_ventas:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.01,1.01);
+}
+#mant_bodega{
+    font-size: 25px;
+    display: block;
+    color: white;
+    padding: 20px;
+    padding-bottom: 55px;
+    text-decoration: none;
+}
+#mant_bodega:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.01,1.01);
+}
+
+    
+/**********************************/
+
 /**********************************/
 /********** Footer CSS ************/
 /**********************************/
