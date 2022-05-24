@@ -2,10 +2,10 @@
 /********** General CSS ***********/
 /**********************************/
 body {
-    color: #353535;
+    color: #000000;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    background: #fffefe;
+    background: #ffffff;
 }
 
 a {
@@ -267,8 +267,8 @@ h2 {
 }
 
 .nav .dropdown-menu a.active {
-    color: #353535;
-    background: #f8f9fa;
+    color: #ffffff;
+    background: #ffffff;
 }
 
 .navbar-nav {
@@ -303,7 +303,7 @@ h2 {
     
     .nav .navbar-dark a.nav-link:hover,
     .nav .navbar-dark a.nav-link.active {
-        color: #000000;
+        color: #ffffff;
     }
     
 }
@@ -479,7 +479,7 @@ h2 {
 
 .header .navbar li {
     padding: 0 30px;
-    border-bottom: 1px solid #f3f6ff;
+    border-bottom: 1px solid #ffffff;
 }
 
 .header .navbar li:last-child {
@@ -487,7 +487,7 @@ h2 {
 }
 
 .header .navbar a {
-    color: #353535;
+    color: #ffffff;
 }
 .header .navbar a:hover {
     color: #8e22bb;
@@ -502,7 +502,7 @@ h2 {
 }
 
 .header .navbar a:hover i {
-    color: #353535;
+    color: #ffffff;
 }
 
 .header-slider {
