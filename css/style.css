@@ -1991,6 +1991,49 @@ h2 {
 }
 
 /**********************************/
+/*******  HISTORIAL VENTA *******/
+.btn_ventas {
+    color: #8e22bb;
+    background: #ffffff;
+    border: 2px solid #8e22bb;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+
+.btn_ventas:hover,
+.btn_ventas:active,
+.btn_ventas:focus {
+    color: #ffffff;
+    background: #8e22bb;
+    box-shadow: none;
+}
+.btn_ventas a{
+    padding: 25px;
+    color: #7f00b2;
+}
+/**********************************/
+.btn_estado {
+    color: #8e22bb;
+    background: #ffffff;
+    border: 2px solid #8e22bb;
+    border-radius: 4px;
+    padding: 5px;
+}
+.btn_estado:hover,
+.btn_estado:active,
+.btn_estado:focus {
+    color: #ffffff;
+    background: #8e22bb;
+    box-shadow: none;
+}
+.btn_estado a{
+    padding: 20px;
+    color: #7f00b2;
+}
+
+/**********************************/
 /*******  MAESTRO INVENTARIO *******/
 .my-account_adm .idform{
     text-align: left;
