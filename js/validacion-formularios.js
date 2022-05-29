@@ -25,6 +25,21 @@ $('#registro').validate({
             minlength : 10,
             equalTo : "#password",
         },
+        "nombre": {
+            required: true,
+        },
+        "descripcion": {
+            required: true,
+        },
+        "precio": {
+            required: true,
+        },
+        "descuento": {
+            required: true,
+        },
+        "oferta": {
+            required: true,
+        },
     },
     messages: {
         "rut": {
@@ -51,6 +66,21 @@ $('#registro').validate({
             required: 'Debe repetir la misma password',
             minlength: 'La mínima cantidad de caracteres de la contraseña es 10',
             equalTo: 'La repetición de contraseña debe coincidir con la contraseña original',
+        },
+        "nombre": {
+            required: 'Debe ingresar nombre del producto',
+        },
+        "descripcion": {
+            required: 'Debe ingresar descripción del producto',
+        },
+        "precio": {
+            required: 'Debe ingresar precio del producto',
+        },
+        "descuento": {
+            required: 'Debe ingresar descuento del producto',
+        },
+        "oferta": {
+            required: 'Debe ingresar oferta del producto',
         },
     }
 });
