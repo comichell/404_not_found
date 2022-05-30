@@ -244,20 +244,13 @@ $(function() {
         });
     });
 
-    /*header */
-$(function() {
-    $.get("header copy.html", function(data) {
-        document.getElementById("header").outerHTML = data;
-    });
-});
-
-
-/*footer */
+    /*footer */
 $(function() {
     $.get("footer.html", function(data) {
         document.getElementById("footer").outerHTML = data;
     });
 });
+
 
 $(document).ready(function() {
     $('#btnMostrarRopa').click(function(){
