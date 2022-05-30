@@ -112,8 +112,14 @@ h2 {
     border: 2px solid #ffffff;
 }
 
-
-
+.btn-primary:hover{
+    border-color:#7f00b2;
+}
+.btn-primary a{
+    color: #7f00b2;
+    padding: 6px 12px;
+    padding-top: 10px;
+}
 
 .btn:hover,
 .btn:active,
@@ -1997,7 +2003,7 @@ h2 {
     background: #ffffff;
     border: 2px solid #8e22bb;
     border-radius: 4px;
-    padding: 5px;
+    padding: 3px;
 }
 
 
@@ -2010,7 +2016,7 @@ h2 {
     box-shadow: none;
 }
 .btn_ventas a{
-    padding: 25px;
+    padding: 3px;
     color: #7f00b2;
 }
 /**********************************/
@@ -2021,6 +2027,9 @@ h2 {
     border-radius: 4px;
     padding: 5px;
 }
+#entregado{
+    margin-top: 5px;
+}
 .btn_estado:hover,
 .btn_estado:active,
 .btn_estado:focus {
@@ -2029,7 +2038,8 @@ h2 {
     box-shadow: none;
 }
 .btn_estado a{
-    padding: 20px;
+    padding: 10px;
+    width: 15px;
     color: #7f00b2;
 }
 
@@ -2688,6 +2698,12 @@ h2 {
     text-align: center;
 }
 
+/*******  SIMULAR ENTRAR COMO CLIENTE  *******/
+#simuladorC{
+    margin-top: 25px;
+    left: 20%;
+}
+
 /****** Admin administrador ACCESO ******/
 /**********************************/
 .administrar{
@@ -3047,3 +3063,6 @@ h2 {
     text-align: center;
 }
 
+.error{
+    color: red;
+}
