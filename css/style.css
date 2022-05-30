@@ -32,12 +32,12 @@ h2 {
     font-weight: 700;
 }
 
-@media(min-width: 992px) {
+/* @media(min-width: 992px) {
     .container-fluid {
         padding-right: 60px;
         padding-left: 60px;
     }
-}
+} */
 
 
 /**********************************/
@@ -760,6 +760,7 @@ h2 {
 }
 
 .product-item .product-content .price span {
+    margin-right: 24%;
     margin-left: 12px;
     text-decoration: line-through;
     font-weight: 700;
@@ -1088,10 +1089,6 @@ h2 {
     padding: 30px 0;
 }
 
-.product-detail .product-detail-top,
-.product-detail .product-detail-bottom {
-    margin-bottom: 30px;
-}
 
 .product-detail .product-detail-top {
     padding: 0;
@@ -1121,16 +1118,7 @@ h2 {
     transform: scale(1.2);
 }
 
-.product-detail .product-content,
-.product-detail .product-content .title,
-.product-detail .product-content .ratting,
-.product-detail .product-content .price,
-.product-detail .product-content .details,
-.product-detail .product-content .quantity,
-.product-detail .product-content .action {
-    position: relative;
-    width: 100%;
-}
+
 
 .product-detail .product-content {
     padding: 30px;
@@ -1144,23 +1132,25 @@ h2 {
 
 .product-detail .product-content .title h2 {
     font-size: 25px;
-    margin-bottom: 53px;
+    margin-left: 20%;
 }
 
 .product-detail .product-content .ratting {
     margin-bottom: 10px;
+    margin-left: 20%;
 }
 
 .product-detail .product-content .ratting i {
     color: #8e22bb;
     font-size: 16px;
+   
 }
 
 .product-detail .product-content .price,
 .product-detail .product-content .quantity,
 .product-detail .product-content .p-size,
 .product-detail .product-content .p-color {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .product-detail .product-content .price h4,
@@ -1171,7 +1161,7 @@ h2 {
     width: 80px;
     font-size: 18px;
     font-weight: 700;
-    margin-right: 5px;
+    margin-left: 20%;
 }
 
 .product-detail .product-content .price p {
@@ -1223,12 +1213,9 @@ h2 {
 }
 
 .product-detail .product-content .action a:first-child {
-    margin-right: 11px;
+    margin-left:12%;
 }
 
-.product-detail .product-content .action a i {
-    margin-right: 5px;
-}
 
 .product-detail .nav.nav-pills .nav-link {
     color: #8e22bb;
@@ -1496,7 +1483,7 @@ h2 {
 
 .cart-page .table {
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 0;
 }
 
@@ -3063,6 +3050,7 @@ h2 {
     text-align: center;
 }
 
-.error{
-    color: red;
+.error {
+    color:red;
 }
+
