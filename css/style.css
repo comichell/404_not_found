@@ -463,6 +463,18 @@ h2 {
         margin-bottom: 0;
     }
 }
+.form-control3{
+    height: 35px;
+    padding: 0 15px;
+    color: #999999;
+    border: 1px solid #dddddd;
+   
+}
+
+.total{
+padding-left: 70%;
+
+}
 
 
 /**********************************/
@@ -3052,5 +3064,14 @@ h2 {
 
 .error {
     color:red;
+}
+
+.tblCategorias{
+    text-align: center;
+    color: #353535;
+    background: #ffffff;
+    border-color: #dddddd;
+    border-bottom: none;
+    vertical-align: middle;
 }
 
