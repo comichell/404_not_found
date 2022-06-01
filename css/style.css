@@ -1914,6 +1914,11 @@ h2 {
     left: 23.8%;
     font-size: 38px;        
 }
+.titulodf{
+    position: relative;
+    left: 0%;
+    font-size: 38px;        
+}
 
 .my-account_adm .nav.nav-pills .nav-link {
     padding: 10px 15px;
@@ -2029,6 +2034,16 @@ h2 {
     width: 15px;
     color: #7f00b2;
 }
+
+/**********Detalle Factura**********/
+.tabledf{
+    transform: translateX(72.5%);
+    font-size: 28px;
+}
+.tabledf td{
+    border: none;
+}
+
 
 /**********************************/
 /*******  MAESTRO INVENTARIO *******/
