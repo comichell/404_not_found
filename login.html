@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Casa de Mascotas</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="eCommerce HTML Template Free Download" name="keywords">
         <meta content="eCommerce HTML Template Free Download" name="description">
@@ -33,39 +34,38 @@
         
         <!-- Login Start -->
         <div class="login">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6">
-                            <form class="borde-bootstrap-row" action="registro.php" method="post" name="registro" id="registro">
-                            <h2 class="titleadm">Ingreso Usuario</h2>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Correo</label>
-                                    <input class="form-control" type="email" name='correo' id="correo"
-                                        aria-describedby="correo-help" placeholder="correo">
-                                    <small id="correo-help" class="form-text text-muted">
-                                        Escribe tu correo incluyendo: nombre, @ y dominio, por ejemplo: atorres@duocuc.cl
-                                    </small>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="password">Contraseña</label>
-                                    <input class="form-control" type="password" name="password" id="password" 
-                                    aria-describedby="password-help" placeholder="Escribe aquí tu contraseña">
-                                </div>
-                                <div class="row borde-bootstrap-row">
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn btn-primary">Ingresar</button>
-                                    </div>
-                                </div>
-                                <div class="row borde-bootstrap-row"> 
-                                    <div class="col-md-12" id="simuladorC">
-                                        <button class="btn btn-primary" type="submit" id="simuladorC"><a href="loginAdmin.html">Seleccione aqui para ingresar como administrador</a></button>
-                                    </div>
-                                </div>
+
+            <div class="col-lg-6">
+                <form class="borde-bootstrap-row" action="registro.php" method="post" name="registro" id="registro">
+                    <h2 class="titleadm">Ingreso Usuario</h2>
+                    <div class="row borde-bootstrap-row">
+                        <div class="col-md-6">
+                            <label for="correo">Correo</label>
+                            <input class="form-control" type="email" name="correo" id="correo" 
+                                aria-describedby="correo-help" placeholder="Escribe aquí tu correo">
+                            <small id="correo-help" class="form-text text-muted">
+                                Escribe tu correo incluyendo: nombre, @ y dominio, por ejemplo: atorres@duocuc.cl
+                            </small>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="password">Contraseña</label>
+                            <input class="form-control" type="password" name="password" id="password" 
+                            aria-describedby="password-help" placeholder="Escribe aquí tu contraseña">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="newaccount">
+                                <label class="custom-control-label" for="newaccount">Seguir Conectado</label>
+                            </div>
+                        </div>
+                        <div class="row borde-bootstrap-row">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary">Ingresar</button>
+
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>            
         <!-- Login End -->
