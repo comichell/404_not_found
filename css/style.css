@@ -278,18 +278,13 @@ h2 {
 }
 
 .navbar-nav {
-    padding-left: 40%;
+    padding-left: 38%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:large;
     
 }
 
-.navbar-nava {
-    padding-left: 50%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:large;
-    
-}
+
 
 @media (min-width: 768px) {
     .nav,
@@ -994,7 +989,7 @@ padding-left: 70%;
     padding: 0 15px;
     color: #999999;
     background: transparent;
-    border: 1px solid #353535;
+    border: 1px solid #8e22bb;
     border-radius: 4px;
     transition: all .3s;
 }
@@ -1011,7 +1006,7 @@ padding-left: 70%;
     right: 1px;
     text-align: center;
     background: transparent;
-    color: #353535;
+    color: #8e22bb;
     border: none;
     border-radius: 0 4px 4px 0;
     transition: all .3s;
@@ -1040,7 +1035,7 @@ padding-left: 70%;
     height: 35px;
     padding: 5px 10px;
     background: transparent;
-    border: 1px solid #353535;
+    border: 1px solid #8e22bb;
     text-align: left;
     border-radius: 4px;
     cursor: pointer;
@@ -1074,9 +1069,9 @@ padding-left: 70%;
 }
 
 .product-view .pagination .page-item .page-link {
-    color: #353535;
+    color: #8e22bb;
     background: transparent;
-    border-color: #353535;
+    border-color: #8e22bb;
 }
 
 .product-view .pagination .page-item:hover .page-link,
@@ -1370,7 +1365,7 @@ padding-left: 70%;
 }
 
 .sidebar-widget.category .navbar a {
-    color: #353535;
+    color: #8e22bb;
 }
 
 .sidebar-widget.category .navbar a:hover {
@@ -1385,7 +1380,7 @@ padding-left: 70%;
 }
 
 .sidebar-widget.category .navbar a:hover i {
-    color: #353535;
+    color: #8e22bb;
 }
 
 .sidebar-widget.brands ul {
@@ -1403,7 +1398,7 @@ padding-left: 70%;
 }
 
 .sidebar-widget.brands ul li a {
-    color: #353535;
+    color: #8e22bb;
     white-space: nowrap;
     display: inline-block;
     line-height: 23px;
@@ -1465,9 +1460,9 @@ padding-left: 70%;
     margin: 0 0 4px 0;
     padding: 3px 8px;
     font-size: 14px;
-    color: #353535;
+    color: #8e22bb;
     background: #ffffff;
-    border: 1px solid #353535;
+    border: 1px solid #8e22bb;
     border-radius: 4px;
     transition: .3s;
 }
@@ -1503,7 +1498,7 @@ padding-left: 70%;
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     font-weight: 700;
-    color: #353535;
+    color: #8e22bb;
     text-align: center;
     background: transparent;
     border-color: #dddddd;
@@ -1572,25 +1567,7 @@ padding-left: 70%;
     border: none;
 }
 
-.cart-page .coupon {
-    position: relative;
-    width: 100%;
-    margin-bottom: 15px;
-    font-size: 0;
-}
 
-.cart-page .coupon input {
-    width: calc(100% - 135px);
-    height: 40px;
-    padding: 0 15px;
-    font-size: 16px;
-    color: #999999;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-    margin-right: 15px;
-    transition: all .3s;
-}
 
 .cart-page .coupon input:focus {
     border-color: #8e22bb;
@@ -1694,7 +1671,7 @@ padding-left: 70%;
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     font-weight: 700;
-    color: #353535;
+    color: #8e22bb;
     text-align: center;
     background: transparent;
     border-color: #dddddd;
@@ -1868,7 +1845,7 @@ padding-left: 70%;
 
 .my-account .nav.nav-pills .nav-link {
     padding: 10px 15px;
-    color: #353535;
+    color: #8e22bb;
     background: #ffffff;
     border-radius: 0;
     border-bottom: 1px solid #dddddd;
@@ -1902,7 +1879,7 @@ padding-left: 70%;
 
 .my-account .tab-content .table .thead-dark th {
     text-align: center;
-    color: #353535;
+    color: #8e22bb;
     background: #ffffff;
     border-color: #dddddd;
     border-bottom: none;
@@ -1934,7 +1911,7 @@ padding-left: 70%;
 
 .my-account_adm .nav.nav-pills .nav-link {
     padding: 10px 15px;
-    color: #353535;
+    color: #8e22bb;
     background: #ffffff;
     border-radius: 0;
     border-bottom: 1px solid #dddddd;
@@ -1952,7 +1929,7 @@ padding-left: 70%;
 
 .my-account_adm .thead-dark th {
     text-align: center;
-    color: #353535;
+    color: #8e22bb;
     background: #ffffff;
     border-color: #dddddd;
     border-bottom: none;
@@ -2868,7 +2845,7 @@ padding-left: 70%;
 }
 
 .footer .footer-widget ul li a {
-    color: #353535;
+    color: #8e22bb;
     white-space: nowrap;
     display: block;
     line-height: 23px;
@@ -2914,8 +2891,8 @@ padding-left: 70%;
     padding: 6px 0;
     text-align: center;
     font-size: 18px;
-    color: #353535;
-    border: 1px solid #353535;
+    color: #8e22bb;
+    border: 1px solid #8e22bb;
     border-radius: 4px;
     transition: all .3s;
 }
@@ -3083,7 +3060,7 @@ padding-left: 70%;
 
 .tblCategorias{
     text-align: center;
-    color: #353535;
+    color: #e60505;
     background: #ffffff;
     border-color: #dddddd;
     border-bottom: none;
