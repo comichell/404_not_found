@@ -2698,12 +2698,12 @@ padding-left: 70%;
 /****** Admin administrador ACCESO ******/
 /**********************************/
 .administrar{
-    margin-top: -30px;
+    margin-top: 0px;
     margin-left: 0;
     border: rgb(185, 15, 241) solid 10px;
     padding-top: 0;
-    width: 1534px;
-    height: 676px;
+    width: 1535px;
+    height: 736px;
     max-width: 1550px;
     position: relative;
     background-color: rgb(230, 189, 243);
@@ -3066,4 +3066,5 @@ padding-left: 70%;
     border-bottom: none;
     vertical-align: middle;
 }
+
 
