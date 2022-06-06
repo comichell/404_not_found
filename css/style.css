@@ -1906,7 +1906,7 @@ padding-left: 70%;
 .titulodf{
     position: relative;
     left: 0%;
-    font-size: 38px;        
+    font-size: 34px;        
 }
 
 .my-account_adm .nav.nav-pills .nav-link {
@@ -2020,7 +2020,6 @@ padding-left: 70%;
 }
 .btn_estado a{
     padding: 10px;
-    width: 15px;
     color: #7f00b2;
 }
 
@@ -2032,7 +2031,28 @@ padding-left: 70%;
 .tabledf td{
     border: none;
 }
+#overf{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
+.estadodf{
+    list-style-type: none;
+    margin-left: 50%;
+    margin-top: -5%;
+    overflow: hidden;
+}
+.estadodf li{
+    float: left;
+    padding: 15px;
+    font-size: 20px;
+    width: 130px;
+    max-width: 130px;
+    text-align: center;
+}
+.despachad, .entregad{
+    margin-left:40px;
+}
 
 /**********************************/
 /*******  MAESTRO INVENTARIO *******/

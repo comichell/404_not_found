@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Detalle de Factura/Casa de Mascotas</title>
+        <title>Detalle de Factura - Casa de Mascotas</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="eCommerce HTML Template Free Download" name="keywords">
         <meta content="eCommerce HTML Template Free Download" name="description">
@@ -55,9 +55,23 @@
                         <div class="tab-content">  <!-- a tener en cuenta-->
                             <div class="tab-pane fade show active" id="dashboard-tab" role="tabpanel" aria-labelledby="dashboard-nav">
                                 <div class="table-responsive">
-                                    <table class="table table-bordered">
+                                    <table class="table table-bordered" id="overf">
                                         <thead class="thead-dark">
                                             <div><h1 class="titulodf">DETALLE FACTURA: F124555433</h1> <br></div>
+                                            <ul class="estadodf">
+                                                <li class="bodeg"><canvas id="myCanvas" width="120" height="70" style="border:1px solid #000000;"></canvas>  
+                                                     <br>
+                                                     En bodega
+                                                </li>
+                                                <li class="despachad"><canvas id="myCanvas" width="120" height="70" style="border:1px solid #000000;"></canvas>
+                                                     <br>
+                                                     Despachado
+                                                </li>
+                                                <li class="entregad"><canvas id="myCanvas" width="120" height="70" style="border:1px solid #000000;"></canvas> 
+                                                    <br>
+                                                     Entregado
+                                                </li>
+                                            </ul>
                                             <tr>
                                                 <th>Id producto</th>
                                                 <th>Categoria</th>
